@@ -117,7 +117,7 @@ Your task:
 1.  Use `rails db` to look at your table.
 
 1.  Rollback your migration to ensure rollback is working properly.
-
+r
 1.  Run your migration again.
 
 1.  Look at the content of the `schema_migrations` table in the `db`. Rails uses this specially generated table to keep track of what migrations it has already run:
@@ -149,7 +149,7 @@ Your boss is having a big party and he's decided to use the company's high-power
 
 1.  Go through the cycle of:
 
-    1.  Running the migration
+    1.  Running the migrations
     2.  Noting the changes in the `schema.rb`
     3.  Noting the changes to the database using `rails db`
     4.  Ensuring you can properly rollback and re-run the migration.
